@@ -22,7 +22,7 @@ class ViewTest extends TestCase
 
         $response
             ->assertStatus(200)
-            ->assertSee('Login');
+            ->assertSee('Logins');
     }
     public function test_route_register_has_view()
     {
