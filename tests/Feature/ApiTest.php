@@ -32,12 +32,12 @@ class ApiTest extends TestCase
 
         $response->assertStatus(200);
     }
-    public function test_get_specified_product()
-    {
-        $response = $this->get('/api/product/1');
+    // public function test_get_specified_product()
+    // {
+    //     $response = $this->get('/api/product/1');
 
-        $response->assertStatus(200);
-    }
+    //     $response->assertStatus(200);
+    // }
     // this method below is worked if product exist
     // public function test_delete_product()
     // {
